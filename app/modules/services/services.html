@@ -1,0 +1,98 @@
+<section class="service-process">
+    <div class="container">
+        <p class="lead">Our Services</p>
+    </div>
+</section>
+<section class="expertise">
+    <div id="tabs">
+        <ul class="nav nav-tabs container">
+            <li ng-repeat="tab in tabs" ng-class="{active:isActiveTab(tab.url)}" ng-click="onClickTab(tab)">{{tab.title}}</li>
+        </ul>
+        <div ng-include="currentTab"></div>
+    </div>
+    <script type="text/ng-template" id="one.tpl.html">
+        <div class="row" style="background:url('../assets/images/dataanaly.jpeg') 90% 60%; min-height:230px;">
+            <div class="container">
+                <div class="col-md-6">
+                    <h1>Data analytics
+                    </h1>
+                    <p>Analytics on transactional data without overheads. Data to actionable insights.</p>
+                </div>
+                <div class="col-md-6">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" style="background:url('../assets/images/cloudcomp.jpeg') 20% 40%; background-size:cover; min-height:230px;color:#fff ">
+            <div class="container">
+                <div class="col-md-6">
+                </div>
+
+                <div class="col-md-6">
+                    <h1>Cloud computing
+                    </h1>
+                    <p>Virtualization and compartmentalization for better utilization of resources.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="background:url('../assets/images/mobile.jpeg') 20% 80%; background-size:cover; min-height:230px;">
+            <div class="container">
+                <div class="col-md-6">
+                    <h1>Mobile applications
+                    </h1>
+                    <p>Cross platform feature rich and modular applications for enterprises.</p>
+                </div>
+                <div class="col-md-6">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row" style="background:url('../assets/images/cms.jpg') 40% 50%; background-size:cover;min-height:230px;color:#fff">
+            <div class="container">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+                    <h1>Content management systems
+                    </h1>
+                    <p>Design and develop highly scalable CMS which are powered by enterprise search engines.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="background:url('../assets/images/realtime.jpg') 20% 50%; background-size:cover; min-height:230px;color:#fff;">
+            <div class="container">
+                <div class="col-md-6">
+                    <h1>Real Time Web
+                    </h1>
+                    <p>Leverage trending technologies to create feature rich applications that stream data.</p>
+                </div>
+                <div class="col-md-6">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row" style="background:url('../assets/images/iot.png') 40% 70%; background-size:cover; min-height:230px;color:#fff">
+            <div class="container">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+                    <h1>Internet of Things
+                    </h1>
+                    <p>Sensor based data collection, aggregation and analytics for industries.</p>
+                </div>
+            </div>
+        </div>
+        
+    </script>
+    <script type="text/ng-template" id="two.tpl.html">
+        <div class="row">
+        <img src="assets/images/engagement.png" style="max-width:50%;margin:0 auto;">
+        </div>
+    </script>
+    <script type="text/ng-template" id="three.tpl.html">
+    </script>
+</section>
+<section id="contact">
+</section>

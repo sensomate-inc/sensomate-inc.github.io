@@ -1,6 +1,6 @@
 body {
     color: #2c3e50;
-    font: normal 16px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: normal 16px "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
     background-color: #fff;
     overflow-x: hidden;
@@ -36,7 +36,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     margin-bottom: 15px;
     margin-top: 0;
@@ -101,8 +101,8 @@ pre {
 }
 
 
-/*	Section
-	==================================================*/
+/*  Section
+    ==================================================*/
 
 .section {
     padding: 40px 0;
@@ -117,8 +117,8 @@ pre {
 }
 
 
-/*	Button & Label
-	==================================================*/
+/*  Button & Label
+    ==================================================*/
 
 .alert {
     color: #FFF;
@@ -230,8 +230,8 @@ pre {
 }
 
 
-/*	Tab & Collapse Skin
-	==================================================*/
+/*  Tab & Collapse Skin
+    ==================================================*/
 
 .tab-pane {
     padding: 15px 0;
@@ -336,8 +336,8 @@ pre {
 }
 
 
-/*	Form
-	==================================================*/
+/*  Form
+    ==================================================*/
 
 label {
     font-weight: 300;
@@ -486,8 +486,8 @@ fieldset[disabled] .form-control:focus {
 }
 
 
-/*	Header
-	==================================================*/
+/*  Header
+    ==================================================*/
 
 #header {
     box-shadow: 0 0 5px rgba(0, 0, 0, .05);
@@ -496,8 +496,8 @@ fieldset[disabled] .form-control:focus {
 }
 
 
-/*	Parallax Background
-	==================================================*/
+/*  Parallax Background
+    ==================================================*/
 
 #parallax {
     height: 480px;
@@ -511,8 +511,8 @@ fieldset[disabled] .form-control:focus {
 }
 
 
-/*	Navbar
-	==================================================*/
+/*  Navbar
+    ==================================================*/
 
 .navbar-inverse .navbar-brand {
     padding: 30px 15px;
@@ -560,8 +560,8 @@ fieldset[disabled] .form-control:focus {
 }
 
 
-/*	home
-	==================================================*/
+/*  home
+    ==================================================*/
 
 #home {
     /*background: rgba(0, 0, 0, 0);*/
@@ -570,16 +570,14 @@ fieldset[disabled] .form-control:focus {
     color: #fff;
     margin-top: 80px;
     padding: 0;
+    min-height: 580px;
 }
 
 #home .lp-element {
     padding: 15px 50px;
     background-color: rgba(255, 255, 255, 0);
-}
-
-#home .lp-element {
-    padding: 115px 50px;
-    background-color: rgba(255, 255, 255, 0);
+    max-width: 90%;
+    margin: 100px auto;
 }
 
 #home h1 {
@@ -588,6 +586,9 @@ fieldset[disabled] .form-control:focus {
 
 #home p.lead {
     font-size: 1.8em;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 300;
 }
 
 #home p .btn-danger {
@@ -621,8 +622,8 @@ fieldset[disabled] .form-control:focus {
 }
 
 #home
-/*	Features
-	==================================================*/
+/*  Features
+    ==================================================*/
 
 #features {
     background-color: #FFF;
@@ -653,16 +654,16 @@ fieldset[disabled] .form-control:focus {
 }
 
 
-/*	Image
-	==================================================*/
+/*  Image
+    ==================================================*/
 
 #image {
     background-color: #ecf0f1;
 }
 
 
-/*	Gallery
-	==================================================*/
+/*  Gallery
+    ==================================================*/
 
 #gallery {
     background-color: #34495e;
@@ -685,16 +686,16 @@ fieldset[disabled] .form-control:focus {
 }
 
 
-/*	Newsletter
-	==================================================*/
+/*  Newsletter
+    ==================================================*/
 
 .faq-block {
     margin: 0 80px;
 }
 
 
-/*	Slider
-	==================================================*/
+/*  Slider
+    ==================================================*/
 
 #slider {
     background-color: #ecf0f1;
@@ -788,8 +789,8 @@ fieldset[disabled] .form-control:focus {
 }
 
 
-/*	Newsletter
-	==================================================*/
+/*  Newsletter
+    ==================================================*/
 
 #newsletter {
     text-align: center;
@@ -806,11 +807,11 @@ fieldset[disabled] .form-control:focus {
 }
 
 
-/*	Footer
-	==================================================*/
+/*  Footer
+    ==================================================*/
 
 footer {
-	margin-top: -7px;
+    margin-top: -7px;
     font-size: 13px;
     background-color: #34495E;
     padding: 18px;
@@ -833,8 +834,8 @@ footer a:hover {
 }
 
 
-/*	Responsive
-	==================================================*/
+/*  Responsive
+    ==================================================*/
 
 @media (max-width: 991px) {
     .service-block {
@@ -970,14 +971,64 @@ footer a:hover {
     position: relative;
     height: 400px;
     text-align: center;
-    top:0;
+    top: 0;
 }
 
 .contact-text {
-    
     margin: 0 auto;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.service-process {
+    min-height: 110px;
+    background: url('../images/services.jpeg') 50% 75% rgba(0, 0, 0, 0.5);
+    margin-top: 85px;
+}
+
+.service-process p {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.expertise {
+    background: #fff;
+}
+
+.expertise h1 {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-bottom: 5px !important;
+    margin-top: 140px;
+    font-weight: bold;
+}
+
+.expertise p {
+    font-size: 13px;
+}
+
+.expertise .row {
+    padding: 20px 0;
+}
+
+.expertise .row:nth-child(even) {
+    background: #ededed;
+}
+
+.expertise .row:nth-child(odd) {
+    background: #fff;
+}
+.expertise .nav-tabs>li.active {
+    border-bottom : 3px solid #3BE2C3;
+}
+.expertise .nav-tabs>li {
+    padding: 15px !important;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
