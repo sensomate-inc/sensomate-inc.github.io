@@ -1,6 +1,6 @@
 body {
     color: #2c3e50;
-    font: normal 16px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: normal 16px "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
     background-color: #fff;
     overflow-x: hidden;
@@ -36,7 +36,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     margin-bottom: 15px;
     margin-top: 0;
@@ -981,3 +981,27 @@ footer a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.tab-pane {
+    text-align: center;
+}
+.tab-pane img {
+    padding: 10px;
+    max-width: 650px;
+}
+.service-process .nav-tabs li a {
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+}
+
+.nav-center {
+  text-align: center;
+}
+.nav-center ul.nav {
+  display: inline-block;
+}
+.nav-center ul.nav li {
+  display: inline a;
+  display-float: left;
+}
+
